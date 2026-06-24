@@ -83,3 +83,14 @@ first deployment, with known failure modes documented.
 - **Failure analysis:** After fine-tuning, I'll paste my wrong predictions into an
   LLM and ask it to find patterns (label pair confused, post length, sarcasm),
   then verify each pattern by re-reading the examples myself before writing it up.
+
+  Columns: ['text', 'label', 'notes']
+Total examples: 200
+
+Label distribution:
+label
+argument    101
+opinion      62
+question     37
+Name: count, dtype: int64
+
